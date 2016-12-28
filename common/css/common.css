@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* base */
+body,input,textarea,select,button,table{font-family: 'Roboto', sans-serif;; font-size:15px; color: #333;}
+body,div,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,p,form,fieldset,input,table,tr,th,td{margin:0;padding:0}
+h1,h2,h3,h4,h5,h6{font-family: 'Josefin Sans', sans-serif; font-weight:normal;font-size:100%}
+ul,ol{list-style:none}
+fieldset,img{border:0; vertical-align:top;}
+address{font-style:normal}
+li, dd, p {line-height: 1.5em}
+table {border-collapse: collapse;}
+.hidden {position: absolute; left:-1000%; top: 0; width: 1px; height: 1px; overflow: hidden; color: #fff;}
+
+/* a-style */
+a{color:#333;text-decoration:none}
+a:hover,a:active,a:focus{color:#333;text-decoration:none}
+
+/*Skip Nav Area*/
+   #skipNav{position:relative;width:100%;overflow:hidden;}
+   #skipNav a{display:block; height:1px; margin-bottom:-1px; 
+      overflow:hidden; text-align:center; text-decoration:none; color:#333; font-size:12px;}
+   #skipNav a:hover,#skipNav a:focus,#skipNav a:active{
+     display:block;height:auto;padding:5px 0; background:#f2f2f2;}
+	 
+	 
+/* header area */
+
+#wrap{ width:100%; height:100%; overflow:hidden; position: relative }
+#header { width:1000px; position:absolute; z-index:10; left:50%; top:0; margin-left:-500px}
+#header .logo {width: 100px; float:left; margin: 33px 110px 31px 100px }
+#header .logo a {display: block; background: url(../images/mainlogo.png) right center no-repeat; width: 80px; height: 94px; text-indent: -9999px; overflow: hidden;}
+#header #nav {width: 456px;	float: left; margin-top: 42px; }
+#header #nav ul {color: #736357; float: left; font-weight: 500; }
+#header #nav ul li {float: left; margin-right: 34px; background: url(../images/menu_devider.png) right center no-repeat; padding-right: 30px; }
+#header #nav ul li a:hover {color:#57c0d4;}
+#header #nav ul .navRight {margin: 0; background: none;}
+#header #nav ul .navFirst {margin-right: 30px; padding-right: 70px;}
+#header #nav ul .chemicals {padding-right:49px}
+#header #nav ul .navEcosystem {padding-right: 21px}
+#header .headerRight {color: #736357;  float: left; margin-left: 35px; font-size: 0.867em}
+#header .headerRight ul {margin-top: 42px; width: 180px;  }
+#header .headerRight ul li{float: left; padding-right: 20px; }
+#header .headerRight ul .signIn {}
+#header .headerRight ul li a:hover {color:#57c0d4;}
+
+/*gnb area*/
+
+#gnb {position:relative; top: 30px; z-index:10; width:200px; height:50px; display:none;}
+#gnb ul.menuList {position:absolute; top:150px; left:265px; width:500px;}
+#gnb ul li.depth1 {width: 152px; height:168px; background: rgba(255,255,255,.9); float:left; margin:5px;}
+#gnb ul li.depth1 ul {}
+#gnb ul li.depth1 ul li {}
+#gnb ul li.depth1 ul li a {display:block; height:36px; padding:20px 0 0 15px;}
+#gnb ul li.depth1 ul li.menuLastItem a{display:block; height:72px;}
+#gnb ul li.depth1 ul li a:hover{background:#9bc700;}
+#gnb a.closeBtn {text-indent:-99999px; overflow:hidden;display: block; width: 37px; height: 37px; position:absolute; top:155px; left: 755px; background:url(../images/nav_close.png) no-repeat;}
+
+
+/*footer area*/
+#footer {overflow: hidden; background: #736357}
+#footer .footerTop {width: 1000px; margin: 0 auto; height: 358px; margin-top: 40px }
+#footer .footerTop h3 {font-size: 1.2em; font-weight: bold;}
+#footer .footerTop h3 a { color: #57c0d4}
+#footer .footerTop .follow {width: 136px; float: left; margin-left: 50px;}
+#footer .footerTop .follow ul li a{color: #f0f0f0}
+#footer .footerTop .follow h3 {margin-bottom: 41px; color:#57c0d4 }
+#footer .footerTop .follow li {overflow: hidden; margin-bottom: 13px;}
+#footer .footerTop .follow li a p {color: #f0f0f0}
+#footer .footerTop .follow li img {float: left}
+#footer .footerTop .follow li p {float: left; margin-left: 24px}
+#footer .footerTop .sitemapBottom {float: left; width: 480px; margin-left: 90px}
+#footer .footerTop .sitemapBottom h3 {margin-bottom: 41px}
+#footer .footerTop .sitemapBottom li {float: left}
+#footer .footerTop .sitemapBottom li ul li {clear: both; color: #f0f0f0}
+#footer .footerTop .sitemapBottom li ul li a {color: #f0f0f0}
+#footer .footerTop .sitemapBottom .footerClimate {margin-left: 74px}
+#footer .footerTop .sitemapBottom .footerDisasters {margin-left: 34px}
+#footer .footerTop .sitemapBottom .footerDisasters h3 {margin-bottom: 22px}
+#footer .footerTop .sitemapBottom .footerChemicals {margin-left: 30px}
+#footer .footerTop .sitemapBottom .footerResource h3 {margin-bottom: 60px}
+#footer .footerTop .campaign {float: left; margin-left: 28px}
+#footer .footerTop .footerEcosystem {margin-top: 40px}
+#footer .footerTop .footerChemicals {margin-top: 40px}
+#footer .footerTop .footerResource {margin: 40px 0 0 50px;}
+#footer .footerTop .campaign h3 {margin-bottom: 41px}
+#footer .copy {width: 1000px; margin: 0 auto; padding-left: 97px; overflow: hidden;}
+#footer .copy img {margin:0 13px 7px 0; float: left}
+#footer .copy span {display: block; margin-top: 8px; float: left; color: #f0f0f0; font-size: 0.6em}
+
+/*move top*/
+.topbtn #toTop{display:block;width:70px;height:70px;
+      position:fixed;bottom:550px;left:50%;margin-left:470px;overflow:hidden;
+-webkit-box-shadow: 0px -8px 17px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px -8px 17px -4px rgba(0,0,0,0.75);
+box-shadow: 0px -8px 17px -4px rgba(0,0,0,0.75);}
