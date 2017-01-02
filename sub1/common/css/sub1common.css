@@ -1,0 +1,31 @@
+/* CSS Document */
+
+.container .topMenu li a.current {letter-spacing:-1px; font-weight: bold; color:#01b3ed}
+
+.contentArea {background: #f0f0f0; padding: 135px 0 1px 0; margin-bottom: 100px}
+
+.container{width: 1000px; position: relative; margin: 0 auto; margin-top: 185px}
+.main {width:2304px; position:absolute; left:50%; top:0; margin-left:-1152px; margin-top: 185px;}
+
+.container .topMenu ul {overflow: hidden;}
+.container .topMenu ul li {width: 35px; float: left;}
+.container .topMenu ul li a:hover {letter-spacing:-1px; font-weight: bold; color:#01b3ed}
+
+.container .topMenu {font-size: 1.375em; margin: 0 0 42px 60px; padding-top:50px}
+.container .topMenu .topMenuLeadership {margin-left: 100px}
+.container .topMenu .topMenuContact {margin-left: 150px}
+
+
+
+.container .titleArea {width: 1000px; height: 218px; background: rgba(240, 240, 240,.5); 
+						-webkit-box-shadow: 0px -2px 32px 0px rgba(0,0,0,0.26);
+-moz-box-shadow: 0px -2px 32px 0px rgba(0,0,0,0.26);
+box-shadow: 0px -2px 32px 0px rgba(0,0,0,0.26);}
+.container .titleArea h2{font-size: 2.795em; font-weight: bold; padding: 94px 0  75px 123px;}
+
+.container .divider {width:2304px; height: 42px; background: #57c0d4; position:relative; left:50%; top:0; margin-left:-1152px;}
+
+.container .divider p {position: absolute; top: 12px; left: 50%; margin-left: -377px; font-size: 0.75em; color: #f0f0f0; font-weight: 100}
+
+.container .contentArea {font-weight: 300}
+

@@ -1,0 +1,46 @@
+/* CSS Document */
+
+.container .topMenu .topMenuRedd {width: 130px; margin: 0 30px 0 0}
+
+
+.container .divider p {position: absolute; top: 13px; left: 50%; margin-left: -377px; font-size: 0.75em; color: #f0f0f0; font-weight: 100}
+
+.contentArea {padding: 0 0 1px 0; margin-bottom: 100px; padding-bottom: 150px}
+.contentArea p {margin: 0 auto; width: 800px; line-height: 1.5em; font-size:1.2em }
+.contentArea .contentTop {font-size: 1.38em ;padding: 100px 0;}
+.contentArea .sliderMenu {height: 200px;}
+.contentArea span{display: block; width: 680px; height: 5px; background: #fff; position: relative; left: 50%; margin-left: -340px; top: 90px}
+
+.contentArea #aboutRedd {position:relative; margin-bottom: 400px;}
+.contentArea #aboutRedd h3 {position:absolute; font-size: 1.533em;  padding-bottom: 10px; top:-252px; left:220px;}
+.contentArea #aboutRedd img {position:absolute; left: 500px; top: 50px;}
+.contentArea #aboutRedd .textArea1 {position: relative; top: 250px; width: 700px; padding: 0 100px; margin-top:100px; background: #f0f0f0;}
+.contentArea #aboutRedd .textArea1 p {width: 700px;}
+
+
+.contentArea h3 {position: absolute; top:1000px ; padding-bottom: 10px; left:200px; font-size: 1.533em;}
+.contentArea h3:hover {border-bottom: 5px solid #9bc700}
+
+.contentArea #howRedd {position:relative; margin-bottom: 700px;}
+.contentArea #howRedd img {position: absolute; left:50%; margin-left: -1000px; }
+.contentArea #howRedd .textArea2 {position: relative; background: #f0f0f0; padding:20px 0 50px 0}
+.contentArea #howRedd h3 {position: absolute; top:-1162px; left:380px;font-size: 1.533em;}
+.contentArea #howRedd h4 {margin-top: 50px}
+
+.contentArea #benefitRedd {position:relative; margin-bottom: 800px;}
+.contentArea #benefitRedd img {position: absolute; top:-500px;left: 200px;}
+.contentArea #benefitRedd .textArea3 {position:relative; background: #f0f0f0;}
+.contentArea #benefitRedd .textArea3 h4 {padding-top: 80px;}
+.contentArea #benefitRedd h3{position: absolute; top: -2596px; left: 530px;}
+
+
+.contentArea #importanceRedd {position:relative; margin-bottom: 100px;}
+.contentArea #importanceRedd h3 {position: absolute; top: -3959px; left: 690px;}
+.contentArea #importanceRedd img {position: absolute; left: 50%; margin-left:-1200px;top: -500px;}
+.contentArea #importanceRedd .textArea4 {position: relative; background: #f0f0f0;}
+.contentArea #importanceRedd .textArea4 h4 {margin-top: 50px; padding-top: 80px;}
+
+
+.contentArea h4 {font-size:1.733em;margin: 5px 0 100px 130px; font-weight: 600 }
+.contentArea #howRedd h5 {font-size: 1.467em; font-weight: 600; margin: 0 0 50px 130px}
+.contentArea #benefitRedd h4 {margin-top: 200px}

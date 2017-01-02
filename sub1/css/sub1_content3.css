@@ -1,0 +1,33 @@
+/* CSS Document */
+
+
+.container .divider p {position: absolute; top: 7px; left: 50%; margin-left: -377px; font-size: 0.75em; color: #f0f0f0; font-weight: 100}
+
+.contentArea {padding: 0 0 1px 0; margin-bottom: 100px}
+.contentArea p {width: 800px; line-height: 1.5em; margin: 0px 0 0 97px; font-size: 1.200em; }
+
+#map {width: 360px; height: 360px; border: 1px solid #ccc; left:200px;}
+
+.contentArea .location {overflow:hidden; padding-top: 100px; margin-bottom: 160px}
+
+.contentArea .location .address {width: 313px; float: left}
+.contentArea .location .address p {display: block; width: 313px; margin: 0 0 50px 140px}
+.contentArea .location .map {width: 360px; float: right; margin-right: 100px}
+
+.contentArea .contactus {position: relative; left: 150px;}
+.contentArea .contactus h3 {font-size: 2.15em; color:#736357; font-weight: bold; }
+.contentArea .contactus ul {margin-top:100px}
+.contentArea .contactus ul li {margin: 30px 0}
+.contentArea .contactus ul li input {height: 50px; font-size:1.533em}
+.contentArea .contactus ul li textarea {width: 700px; height: 250px; font-size: 1.533em}
+.contentArea .contactus label {display: block}
+
+.contentArea .contactus ul .quiz .quizLeft {width: 300px; float:left}
+.contentArea .contactus ul .quiz .answer{ margin-left:150px}
+.contentArea .contactus ul li label, .quiz-span {font-weight: 400; color: #666; font-size: 1.2em; line-height: 30px}
+.contentArea .contactus ul li .quiz input {width:100px;}
+
+
+.contentArea .contactus ul li input[type=submit] {width: 300px; height: 50px; border: 2px solid #9bc700; background: #f0f0f0; margin: 50px 0 100px 210px; font-size: 1.533em; color: #736357}
+
+.contentArea .contactus ul li input[type=submit]:hover {background: #9bc700 }

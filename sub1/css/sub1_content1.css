@@ -1,0 +1,29 @@
+/* CSS Document */
+
+.main {width:2304px; position:absolute; left:50%; top:0; margin-left:-1152px; margin-top: 185px}
+
+
+.contentArea p {width: 800px; line-height: 1.5em; margin: 0px 0 160px 97px; font-size: 1.200em; }
+
+.contentArea .textArea1 p {opacity: 0;position:relative;}
+.contentArea .statement1 {overflow: hidden; margin-bottom: 160px}
+.contentArea .statement1 img {opacity:0; left:-50px; position: relative; width:491px; float: left;}
+.contentArea .statement1 p {position:relative; left: 50px;opacity:0; display: block; width: 250px; float: right; margin: 0; padding:62px 170px 50px 89px; color: #736357; font-weight: 100; background: #fff}
+
+.contentArea .statement2 {overflow: hidden; margin-bottom: 160px}
+.contentArea .statement2 p {position:relative; left: -50px;opacity:0; width:296px; float: left; margin: 0; padding: 52px 80px 56px 133px; color: #736357; font-weight: 100; background: #fff}
+.contentArea .statement2 img {position:relative; left: 50px;opacity:0; width: 491px; float:right;}
+
+
+.contentArea .textArea2 p{position:relative; opacity:0;}
+.contentArea .textArea3 {text-align: center; font-size: 1.533em; font-weight: 200;}
+.contentArea .textArea3 img {position: relative; opacity:0;margin-bottom: 40px}
+.contentArea .textArea3 p {position:relative; left: 50%; margin-left:-400px; top: 20px; opacity:0;}
+
+.contentArea .statement3 {overflow:hidden; margin-bottom: 160px}
+.contentArea .statement3 img {position:relative;opacity:0; left:-50px;width: 491px; float:left}
+.contentArea .statement3 p {position: relative; opacity:0; left: 50px;width: 283px; float: right; margin:0; padding: 67px 146px 71px 80px; color: #736357; font-weight: 100; background: #fff}
+.contentArea .textArea4 {margin-bottom: 160px}
+.contentArea .textArea4 p {position:relative; opacity: 0;}
+
+.contentArea .textArea5 p {position:relative; opacity:0;}

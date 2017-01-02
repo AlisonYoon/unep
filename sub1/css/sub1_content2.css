@@ -1,0 +1,35 @@
+/* CSS Document */
+
+.container .divider p {position: absolute; top: 7px; left: 50%; margin-left: -377px; font-size: 0.75em; color: #f0f0f0; font-weight: 100}
+
+.contentArea {padding: 0 0 1px 0; margin-bottom: 100px}
+.contentArea p {width: 800px; line-height: 1.5em; margin: 0px 0 0 97px; font-size: 1.200em; }
+
+.contentArea .summary  {width: 1000px; background: rgba(240, 240, 240,.5); margin:0; padding: 105px 0 110px 0; font-size: 1.600em; font-weight: 100}
+
+.commonBackground {background: #f0f0f0; padding-top: 100px}
+
+.contentArea .directorImage {margin: 0}
+.contentArea .directorImage .imageCaption {font-style: italic; font-weight:100; font-size: 0.867em; color: #666; text-align:center; margin: 10px 0;}
+.contentArea .quoteArea1 p, .quoteArea2 p{width: 570px;font-size: 2em; color: #736357; font-weight: 100; text-align: right; margin: 160px 0 20px 335px;}
+.contentArea .quoteArea1 img, .quoteArea2 img {margin: 0 60px 240px 837px;}
+
+.contentArea .textArea1 {margin-bottom: 160px}
+
+.contentArea .textArea2 {margin-bottom: 240px}
+
+.contentArea .textArea3 {margin-bottom: 160px}
+
+.contentArea .articleDivider {width:2304px; height: 62px; background: #9bc700; position:relative; left:50%; top:0; margin-left:-1152px;}
+.contentArea .articleDivider h3 {position: absolute; top: 16px; left: 50%; font-size: 2.133em; color: #736357; font-weight: 400}
+
+.contentArea .articleSlider {width:1000px; margin-top: 185px; position:relative; overflow:hidden; }
+.contentArea .articleSlider .slide_gallery {position: relative; width:2960px; overflow:hidden; top:0; left:0}
+.contentArea .articleSlider ul {}
+.contentArea .articleSlider ul li {float:left; list-style:none;}
+.contentArea .articleSlider ul li img {margin: 0 10px 0 10px}
+.contentArea .articleSlider ul li p {width: 230px; height: 215px; background: #fff; margin: 0 10px 50px 10px; padding: 20px 23px}
+.contentArea .articleSlider .sub_menu_box li  {list-style:none; position:absolute; top:0; left:0;}
+.contentArea .articleSlider li.btnRight {left: 893px;}
+.contentArea .articleSlider li.btnLeft {left:0px;}
+.articleSlider .sub_menu_box img{cursor:pointer; position:relative;}
