@@ -1,0 +1,45 @@
+/* CSS Document */
+
+
+.container .divider p {position: absolute; top: 13px; left: 50%; margin-left: -377px; font-size: 0.75em; color: #f0f0f0; font-weight: 100}
+
+.contentArea {padding: 0 0 1px 0; margin-bottom: 100px}
+.contentArea p {line-height: 1.5em; font-size: 1.200em; }
+
+
+.contentArea .contentTop {font-size:1.233em; font-weight:300; color:#736357; width: 750px; padding: 100px 0 200px 0; margin: 0 auto }
+
+.container .contentArea #video ul {text-align: center;margin: 20px 0;}
+.container .contentArea #video ul li {float:left; padding: 0 5px; margin:0;}
+
+.container .contentArea .textArea1 {overflow:hidden; margin:150px 0; padding: 0 100px;}
+
+.container .contentArea .textArea1 .text1 {float:left; width: 320px; margin-left:20px;}
+.container .contentArea .textArea1 .text2 {float:right; width: 320px; margin-right:20px;}
+
+.container .contentArea .textArea2 {overflow:hidden;}
+.container .contentArea .textArea2 p {width:700px; margin: 0 auto;font-size:2em; color:#736357; font-weight:100;}
+.container .contentArea .textArea2 span {display:block; margin:80px 0 100px 350px; float: left;}
+.container .contentArea .textArea2 ul {float:right; margin: 70px 100px 200px 30px;}
+.container .contentArea .textArea2 ul li{font-size:1.2em; width: 400px; color:#736357;}
+
+.container .contentArea .textArea3 img {position:relative; left: 50%; margin-left: -1150px;}
+.container .contentArea .textArea3 p {position: relative; width:700px; background: #f0f0f0;top:-670px; left:50%; margin-left:-400px; padding: 50px;}
+
+.container .contentArea .contentBottom {overflow:hidden; padding:0 100px 100px 100px;}
+.container .contentArea .contentBottom h3 {font-size:1.533em; margin-bottom: 50px;}
+.container .contentArea .contentBottom .bttmLeft {width: 320px; float:left; margin-left:20px;}
+.container .contentArea .contentBottom .bttmRight {width:320px;float:right; margin-right:20px;}
+.container .contentArea .contentBottom span {display: block; clear:both; float:left; margin:110px 0 0 300px;}
+.container .contentArea .contentBottom .info {width: 300px; float: right; margin:100px 50px 200px 50px;}
+.container .contentArea .contentBottom .info a {color:#57c0d4;}
+.container .contentArea .contentBottom .info a:hover {color:#9bc700;}
+
+/*playlist buttons*/
+
+.playList {position: relative; width:1000px; overflow:hidden;}
+.playList .leftBtn {display:none;position: absolute; top:20px; left:0;}
+.playList .rightBtn {display:none;position: absolute; top:20px; left:950px;}
+
+/*playlist gallery slide*/
+.playList .slide_gallery {width:2000px; position:relative;}

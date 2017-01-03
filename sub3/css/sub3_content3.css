@@ -1,0 +1,23 @@
+/* CSS Document */
+
+.container .topMenu .topMenuRedd {width: 130px; margin: 0 30px 0 0}
+
+
+.container .divider p {position: absolute; top: 13px; left: 50%; margin-left: -377px; font-size: 0.75em; color: #f0f0f0; font-weight: 100}
+
+.contentArea {padding: 0 0 1px 0; margin-bottom: 100px; padding-bottom: 150px}
+.contentArea p {margin: 0 auto; width: 800px; line-height: 1.5em; font-size:1.2em; padding: 100px;}
+
+.contentArea .partnerBanner {width:655px; margin:0 auto;}
+.contentArea .partnerBanner ul {overflow:hidden;}
+.contentArea .partnerBanner ul li {margin: 40px; float:left;}
+.contentArea .partnerBanner ul li a {display:block;}
+.contentArea .partnerBanner ul li a.au {width:90px; height:90px;}
+.contentArea .partnerBanner ul li a.au img {margin: 0 15px;}
+.contentArea .partnerBanner ul li a.asan {width:90px; height:90px;}
+.contentArea .partnerBanner ul li a.asan img {margin: 0 65px;}
+.contentArea .partnerBanner ul li a.wb {width:201px; height:90px;}
+.contentArea .partnerBanner ul li a.wb img {margin: 0 60px;}
+.contentArea .partnerBanner ul li a.coe {width: 115px; height:90px;}
+.contentArea .partnerBanner ul li a.gcc{width:168px; height:90px;}
+.contentArea .partnerBanner ul li a.cais {width:90px; height:90px;}
