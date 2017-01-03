@@ -1,0 +1,43 @@
+/* CSS Document */
+
+
+.container .divider p {position: absolute; top: 13px; left: 50%; margin-left: -377px; font-size: 0.75em; color: #f0f0f0; font-weight: 100}
+
+.contentArea {padding: 0 0 1px 0; margin-bottom: 100px}
+.contentArea p {line-height: 1.5em; font-size: 1.200em; }
+
+
+.contentArea .contentTop {font-size:1.233em; font-weight:300; color:#736357; width: 750px; padding: 100px 0 200px 0; margin: 0 auto }
+
+.contentArea .contentMiddle .textArea {position: relative; top: -100px; left:100px; width: 700px; padding: 50px 50px 150px 50px; background: #f0f0f0;}
+.contentArea .contentMiddle .textArea h3 {font-size:2em; font-weight:400; text-align: center; padding-bottom: 50px}
+
+.contentArea .bottomTop {width: 800px; text-align:center; font-size: 1.533em; font-weight: 100; margin-left: 100px}
+.contentArea .contentBottom {padding: 100px 0; position:relative;}
+.contentArea .contentBottom img {margin: 100px 0}
+.contentArea .contentBottom ul li {font-size: 1.533em; text-align: center;margin: 20px; }
+.contentArea .contentBottom .tabbtn {overflow:hidden; width: 800px; margin: 0 auto; padding-left:185px;}
+.contentArea .contentBottom .tabbtn li {float:left; padding: 0; width:81px; height:81px; position: relative; overflow: hidden;}
+
+.contentArea .contentBottom .contlist {display:none;}
+.contentArea .contentBottom .tabbtn li .tab{display: block; width: 162px; height: 81px; text-indent:-9999999px; overflow:hidden; position: absolute; left:-81px; top: 0}
+
+.contentArea .contentBottom .tabbtn li.tab1 {background: url(../images/content1/tab1.png);}
+
+.contentArea .contentBottom .tabbtn li.tab2 {background: url(../images/content1/tab2.png);}
+
+.contentArea .contentBottom .tabbtn li.tab3 {background: url(../images/content1/tab3.png);}
+
+.contentArea .contentBottom .tabbtn li.tab4 {background: url(../images/content1/tab4.png);}
+
+.contentArea .contentBottom .tabbtn li.tab5 {background: url(../images/content1/tab5.png);}
+
+.contentArea .contentBottom .tabbtn li a.btn1 {background: url(../images/content1/tab1on.png) no-repeat;}
+
+.contentArea .contentBottom .tabbtn li a.btn2 {background: url(../images/content1/tab2on.png) no-repeat;}
+
+.contentArea .contentBottom .tabbtn li a.btn3 {background: url(../images/content1/tab3on.png) no-repeat;}
+
+.contentArea .contentBottom .tabbtn li a.btn4 {background: url(../images/content1/tab4on.png) no-repeat;}
+
+.contentArea .contentBottom .tabbtn li a.btn5 {background: url(../images/content1/tab5on.png) no-repeat;}

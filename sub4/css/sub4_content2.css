@@ -1,0 +1,35 @@
+/* CSS Document */
+
+.container .topMenu .topMenuRedd {width: 130px; margin: 0 30px 0 0}
+
+
+.container .divider p {position: absolute; top: 13px; left: 50%; margin-left: -377px; font-size: 0.75em; color: #f0f0f0; font-weight: 100}
+
+.contentArea {padding: 0 0 1px 0; margin-bottom: 100px;}
+.contentArea a {color:#57c0d4;}
+.contentArea a:hover {color:#9bc700;}
+.contentArea p {margin: 0 auto; width: 800px; line-height: 1.5em; font-size:1.2em }
+
+.contentArea .textTop {width: 750px; margin: 0 auto; padding: 100px 100px 200px 100px;}
+.contentArea .textTop h3 {font-size:2em; font-weight:400; margin-bottom: 80px;}
+
+.contentArea .whatwedo1 .textArea1 {position: relative; top: -100px; left:100px; width: 700px; padding: 50px 50px 0 50px; background: #f0f0f0;}
+.contentArea .whatwedo1 .textArea1 p {width: 700px;}
+.contentArea .whatwedo1 .textArea1 h3 {font-size:2em; font-weight:400; text-align: center; padding-bottom: 50px}
+.contentArea .whatwedo1 .textArea1 ul {padding-top: 50px}
+.contentArea .whatwedo1 .textArea1 ul li {padding: 20px 50px 20px 30px; font-size:1.2em; background:url("../images/content2/bullet.png") no-repeat 0 20px;}
+.contentArea .whatwedo1 .textArea2 {padding-bottom: 200px;}
+.contentArea .whatwedo1 .textArea2 p { width: 700px; margin:0 auto}
+.contentArea .whatwedo1 .textArea2 ul {margin: 0 auto; width: 700px; padding: 50px 0;}
+.contentArea .whatwedo1 .textArea2 ul li {padding: 20px 50px 20px 30px; font-size:1.2em; background:url("../images/content2/bullet.png") no-repeat 0 20px;}
+
+.contentArea .whatwedo2 .textArea3{position: relative; top: -100px; left:100px; width: 700px; padding: 50px 50px 0 50px; background: #f0f0f0;}
+.contentArea .whatwedo1 .textArea1 p {width: 700px;}
+.contentArea .whatwedo2 h3{font-size:2em; font-weight:400; text-align: center; padding-bottom: 50px}
+.contentArea .whatwedo2 ul{margin: 0 auto; width: 700px; padding: 50px 0;}
+.contentArea .whatwedo2 .textArea3 ul li {padding: 20px 50px 20px 30px; font-size:1.2em; background:url("../images/content2/bullet.png") no-repeat 0 20px;}
+
+.contentArea .whatwedo3 ul{margin: 0 auto; width: 700px; padding: 50px 0;}
+.contentArea .whatwedo3 .textArea4 ul li {padding: 20px 50px 20px 30px; font-size:1.2em; background:url("../images/content2/bullet.png") no-repeat 0 20px;}
+.contentArea .whatwedo3 .textArea4 {position: relative; top: -100px; left:100px; width: 700px; padding: 50px 50px 0 50px; background: #f0f0f0;}
+.contentArea .whatwedo3 .textArea4 p {width: 700px;}
