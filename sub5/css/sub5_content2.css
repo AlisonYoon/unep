@@ -1,0 +1,106 @@
+/* CSS Document */
+
+.container .topMenu .topMenuRedd {width: 130px; margin: 0 30px 0 0}
+
+
+.container .divider p {position: absolute; top: 13px; left: 50%; margin-left: -377px; font-size: 0.75em; color: #f0f0f0; font-weight: 100}
+
+.contentArea {padding: 0 0 1px 0; margin-bottom: 100px;}
+.contentArea a {color:#57c0d4;}
+.contentArea a:hover {color:#9bc700;}
+.contentArea p {margin: 0 auto; width: 800px; line-height: 1.5em; font-size:1.2em }
+
+.contentArea .textTop {padding: 100px;}
+.contentArea .contentMiddle h3 {font-size:1.533em; font-weight:bold; padding: 50px 100px;}
+.contentArea .contentMiddle p {padding: 20px 0 100px 0;}
+
+.contentArea .imageblocks {position:relative;}
+.contentArea .imageblocks ul {overflow:hidden; width:580px; margin:0 auto;}
+.contentArea .imageblocks ul li {width:250px; float:left; margin:20px; cursor:pointer;}
+
+.contentArea .imageblocks .textbox {
+-webkit-transition: all 0.7s ease;
+transition: all 0.2s ease;
+}
+.contentArea .imageblocks .lira {width:540px; height:540px;
+									position:absolute;
+									top:20px;
+									left:230px;
+									border-top-right-radius:30px;
+									border-bottom-left-radius:30px;
+									background-color: rgba(115,99,87,.9);
+									-webkit-transform: scale(0);
+									transform: scale(0);
+									transform-origin: 0 0;
+									}
+.contentArea .imageblocks .textbox h4 { font-size:1.533em; color:#f0f0f0; margin:60px 0 30px 70px; font-weight:bold; }
+.contentArea .imageblocks .lira p.text { width: 400px; margin:0 auto; color:#f0f0f0; }
+
+.contentArea .imageblocks .hesa {width:540px; height:540px;
+									position:absolute;
+									top:20px;
+									left:230px;
+									border-top-left-radius:30px;
+									border-bottom-right-radius:30px;
+									background-color: rgba(115,99,87,.9);
+									-webkit-transform: scale(0);transform: scale(0);
+									transform-origin: 540px 0;
+									}
+.contentArea .imageblocks .hesa h4 {width: 400px;text-align:right; font-size:1.533em; color:#f0f0f0; margin:60px 0 30px 70px; font-weight:bold; }
+.contentArea .imageblocks .hesa p.text { text-align:right; width: 400px; margin:0 auto; color:#f0f0f0; }
+
+.contentArea .imageblocks .coi {width:540px; height:540px;
+									position:absolute;
+									top:20px;
+									left:230px;
+									border-top-left-radius:30px;
+									border-bottom-right-radius:30px;
+									background-color: rgba(115,99,87,.9);
+									-webkit-transform: scale(0);transform: scale(0);
+									transform-origin: 0 540px;
+
+									}
+.contentArea .imageblocks .coi h4 { font-size:1.533em; color:#f0f0f0; margin:260px 0 30px 70px; font-weight:bold; }
+.contentArea .imageblocks .coi p.text { width: 400px; margin:0 auto; color:#f0f0f0; }
+
+.contentArea .imageblocks .gco {width:540px; height:540px;
+									position:absolute;
+									top:20px;
+									left:230px;
+									border-top-right-radius:30px;
+									border-bottom-left-radius:30px;
+									background-color: rgba(115,99,87,.9);
+									-webkit-transform: scale(0);transform: scale(0);
+									transform-origin: 540px 540px;
+
+									}
+.contentArea .imageblocks .gco h4 {width: 400px;text-align:right; font-size:1.533em; color:#f0f0f0; margin:180px 0 30px 70px; font-weight:bold; }
+.contentArea .imageblocks .gco p.text { text-align:right; width: 400px; margin:0 auto; color:#f0f0f0; }
+
+/*imagebox hover*/
+.image1:hover .lira {
+-webkit-transform: scale(1);
+transform: scale(1);
+
+}
+.image2:hover .hesa {
+-webkit-transform: scale(1);
+transform: scale(1);
+}
+.image3:hover .coi {
+-webkit-transform: scale(1);
+transform: scale(1);
+}
+.image4:hover .gco {
+-webkit-transform: scale(1);
+transform: scale(1);
+}
+
+.contentArea .contentBottom {margin: 200px 0 150px 0;}
+.contentArea .contentBottom img {position:relative; left:50%; margin-left:-1100px;}
+.contentArea .contentBottom .textbox {width: 700px; margin:0 auto; padding:50px; background:#f0f0f0; position:relative; top:-50px;}
+.contentArea .contentBottom .textbox ul li {font-size:1.2em; margin:20px;  padding:20px 50px 20px 30px; background:url(../images/content2/bullet.png) no-repeat 0 20px;}
+.contentArea .contentBottom .textbox p {width: 700px; margin:0 auto; padding-top: 50px;}
+
+
+/*-webkit-transform: scale(0);transform: scale(0);*/

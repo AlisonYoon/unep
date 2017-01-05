@@ -1,0 +1,25 @@
+/* CSS Document */
+
+address, article, aside, figure, footer, header, hgroup, menu, nav, section {display:block;}
+.container .divider p {position: absolute; top: 13px; left: 50%; margin-left: -377px; font-size: 0.75em; color: #f0f0f0; font-weight: 100}
+
+.contentArea {padding: 0 0 1px 0; margin-bottom: 100px}
+.contentArea p {line-height: 1.5em; font-size: 1.200em; }
+
+.contentArea .textTop {width:800px; margin:0 auto; padding: 100px 0;}
+.contentArea .text2{width:700px; margin:0 auto; padding:50px; background:#f0f0f0; position:relative; top:-100px;}
+.contentArea .caption {width: 500px; margin:0 auto;}
+.contentArea .text3 {width:800px; margin:0 auto; padding: 100px 0;}
+
+
+/* boxgrid Jquery*/
+.boxgrid{width: 500px; height: 383px; overflow: hidden; position: relative;
+ margin:20px}
+.boxgrid img{}
+.boxgrid dt{padding:30px; color:#333; font-size:1.533em}
+.boxgrid dd{display:block;width: 400px;padding:30px 0 60px 30px;color:#333;font-size:1.2em}
+.boxcaption{ position: absolute; background: #f0f0f0; height: 383px; width: 100%; opacity: .9;filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";}
+.boxgrid .boxcaption {top:300px;left: 0} /* top값을 수정한다.  */
+.boxgrid .boxcaption dd{line-height:1.5em}
+.boxgrid .boxcaption a{color:#FCF; text-decoration:none; }
