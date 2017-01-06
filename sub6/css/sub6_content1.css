@@ -1,0 +1,57 @@
+/* CSS Document */
+
+address, article, aside, figure, footer, header, hgroup, menu, nav, section {display:block;}
+.container .divider p {position: absolute; top: 13px; left: 50%; margin-left: -377px; font-size: 0.75em; color: #f0f0f0; font-weight: 100}
+
+.contentArea {padding: 0 0 1px 0; margin-bottom: 100px}
+.contentArea p {line-height: 1.5em; font-size: 1.200em; width:800px; margin:0 auto; padding:100px 0; }
+
+.contentArea .textTop p {font-size:1.5em; color:#817267; font-weight: 300;}
+.contentArea .scpIcons .scpi {width:356px;}
+.contentArea .scpIcons {width:850px; margin:0 auto; position:relative;}
+.contentArea .scpIcons ul {overflow:hidden; display: block}
+.contentArea .scpIcons ul li{float:left; width:50px;}
+.contentArea .scpIcons ul li img {width:50px; transition: all ease 0.7s}
+.contentArea .scpIcons .scpi{position:relative; width:356px; height:356px; margin-bottom:50px;}
+.contentArea .scpIcons .default {position: absolute; left:247px; top:0; }
+.contentArea .scpIcons .bigImg{ transform: scale(0);
+           transition:transform 1s; position: absolute; margin-left:247px; top:0; }
+
+@-webkit-keyframes shakeit {
+0% { -webkit-transform: rotate(0deg) translate(2px, 1px); }
+10% { -webkit-transform: rotate(0deg) translate(1px, 2px); }
+20% { -webkit-transform: rotate(0deg) translate(3px, 0px) ; }
+30% { -webkit-transform: rotate(0deg) translate(0px, -2px); }
+40% { -webkit-transform: rotate(0deg) translate(-1px, 1px); }
+50% { -webkit-transform: rotate(0deg) translate(1px, -2px); }
+60% { -webkit-transform: rotate(0deg) translate(3px, -1px); }
+70% { -webkit-transform: rotate(0deg) translate(-2px, -1px); }
+80% { -webkit-transform: rotate(0deg) translate(1px, 1px); }
+90% { -webkit-transform: rotate(0deg) translate(-2px, -2px); }
+100% { -webkit-transform: rotate(0deg) translate(-1px, 2px); }
+}
+@keyframes shakeit {
+0% { transform: rotate(0deg) translate(2px, 1px); }
+10% { transform: rotate(0deg) translate(1px, 2px); }
+20% { transform: rotate(0deg) translate(3px, 0px) ; }
+30% { transform: rotate(0deg) translate(0px, -2px); }
+40% { transform: rotate(0deg) translate(-1px, 1px); }
+50% { transform: rotate(0deg) translate(1px, -2px); }
+60% { transform: rotate(0deg) translate(3px, -1px); }
+70% { transform: rotate(0deg) translate(-2px, -1px); }
+80% { transform: rotate(0deg) translate(1px, 1px); }
+90% { transform: rotate(0deg) translate(-2px, -2px); }
+100% { transform: rotate(0deg) translate(-1px, 2px); }
+}
+
+.contentArea .scpIcons .scpi:hover ~ul{-webkit-animation-name: shakeit;
+-webkit-animation-duration: 1s;
+-webkit-animation-timing-function: linear;
+-webkit-animation-iteration-count: infinite;
+animation-name: shakeit;
+animation-duration: 1s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;}
+
+.contentArea .textMiddle {margin: 100px 0;}
+.contentArea .textMiddle p {padding: 50px 0;}
