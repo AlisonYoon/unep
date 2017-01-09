@@ -1,0 +1,175 @@
+/* CSS Document */
+
+
+
+.highlight {width:2100px; position:relative; left:50%; top:0; margin-left:-1050px}
+.getthefact {width: 1000px;}
+.getthefact {transition: all 1s ease; opacity:0; width: 1000px; margin: 0 auto; height: 280px; background: #9bc700; overflow: hidden; position:absolute; left:50%; top:700px; margin-left:-500px; color: #333}
+.getthefactText {width: 424px; height: 140px; margin-left: 186px;}
+.getthefactText h3 {font-size: 2.5em; font-weight: bold; margin: 50px 0 30px 0;}
+.getthefactBtn { position:absolute; left:0; top:0; width:100%}
+.getthefactBtn a { display:block; height:221px;}
+.getthefactBtn a span{display:block; margin:70px 0 0 725px; transition:all .3s;  padding: 10px 10px 5px 10px; border-bottom: 3px solid #f0f0f0; width:80px; font-weight: bold;}
+.getthefactBtn a:hover span {background:#f0f0f0 url(../images/getthefact.png) 100px 10px no-repeat; width:100px;}
+
+
+#content{width: 1000px; margin: 0 auto;}
+.contentTop {transition: all 1s ease; opacity:0; overflow: hidden; margin-top: 100px; padding: 110px 0 ;}
+.contentTop p {color: #514b4b}
+.contentTop h3 {font-size: 1.5em; font-weight: bold; margin-bottom: 60px; color: #514b4b}
+.contentTop .mission{width: 204px; float: left; margin-left: 50px;}
+.contentTop .mission h3 {margin-left: 9px;}
+.contentTop .mission p {width: 204px; font-size: 0.867em;}
+.contentTop .mission span {font-size: 1.2em }
+
+.contentTop .about {width: 213px; float: left; margin-left: 150px}
+.contentTop .about h3 {margin-left: 54px}
+.contentTop .about p {width: 220px; font-size: 0.867em;}
+.contentTop .instagram {width: 218px; float: right;}
+
+.latest {transition: all 1s ease; opacity:0;  background: #f0f0f0; overflow: hidden; height: 520px;  position: relative;}
+.latest h3 {transition: all 0.8s ease; font-size: 1.5em; margin:100px 0 75px 452px; font-weight: bold; color: #514b4b;}
+.latest .latestLeft {position:relative; width: 300px; margin-left: 100px; float: left;}
+
+.latest .latestRight {width: 300px; margin-right: 139px; float: right;}
+.latest p {transition: all 1.2s ease; position:relative; margin-top:100px;font-size: 0.867em; color: #514b4b;}
+.latest .postDate {font-size: 8px; color: #999; font-style:italic;}
+.latest h4 {font-weight: bold; color: #00ccff;line-height: 1.3em}
+.latest a:hover h4  {color:#9bc700;}
+.latest a:hover .readmore {color:#9bc700;}
+
+.latest .readmore {color: #57c0d4; font-size: 0.867em;}
+.latest .latestLeft .readmore { position: absolute; left: 308px;}
+.latest .latestLeft .readmore:nth-child(5) { position: absolute; left: 408px; bottom: 110px;}
+
+.latest .latestRight .readmore {position: absolute; right: 67px; bottom: 110px;}
+
+.latest .latestLeft:nth-child(3) {margin-right: 139px; float: right;}
+
+.latest .latestLeft h4 {margin-bottom: 62px; height:45px}
+.latest .latestRight h4 {margin-bottom: 45px;}
+.latest .latestLeft .readmore img {margin: -12px 0 0 38px }
+.latest .latestRight .readmore img {margin: 3px 0 0 8px}
+
+
+.info {height: 320px; position:relative; overflow: hidden; background:url(../images/info.jpg)}
+.info h3 {font-size: 1.9em; margin: 43px 0 40px 360px; font-weight:bold; color: #f0f0f0; }
+.info .climate { width: 180px; height: 180px; background: #9bc700; float: left; margin: 0 80px 35px 150px; }
+.info h4{transition: all 1s ease; opacity:0;}
+.info .climate h4 a{color: #f0f0f0}
+.info .ecosystem {width: 180px; height: 180px; background: #f0f0f0; float: left;}
+.info .ecosystem h4 a {color: #666}
+.info .waste { width: 180px; height: 180px; background: #57c0d4; float: right; margin-right: 150px;}
+.info .waste h4 a {color: #f0f0f0}
+.info h4 {font-size: 1.3em; font-weight: bold; margin: 22px 0 25px 0;}
+.info p {transition: all 1s ease; opacity:0; position:relative; margin-top:100px; font-size: 0.837em; line-height: 1.2em; margin-left: 25px; width: 130px; color: #514b4b;}
+.info .climate h4 {margin-left: 60px; color: #f0f0f0}
+.info .ecosystem h4 {margin-left: 50px; color: #666 }
+.info .waste h4 {margin-left: 67px; color: #f0f0f0}
+/*info hover*/
+.info .climate a span {display:block; width: 150px; height:150px; background: rgba(51, 102, 0, .6); position:absolute; top:133px; left:165px; -webkit-transition: all 0.7s ease;
+transition: all 0.7s ease; opacity:0;}
+.info .climate a span.infoarrow {display:block; width:150px; height: 150px; background: url(../images/needtoknowHover.png) 47px 53px no-repeat; position:absolute; top:133px; left:165px; margin-left:-150px; opacity:0; -webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;}
+.info .climate a:hover span {opacity:1;}
+.info .climate a:hover span.infoarrow {opacity:1; margin-left:0;}
+.info .ecosystem a span {display:block; width: 150px; height:150px; background: rgba(102, 102, 102, .6); position:absolute; top:133px; left:426px; -webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;opacity:0;}
+.info .ecosystem a span.infoarrow {display:block; width:150px; height: 150px; background: url(../images/needtoknowHover.png) 47px 53px no-repeat; position:absolute; top:133px; left:426px; margin-left:-150px; -webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;opacity:0;}
+.info .ecosystem a:hover span {opacity:1;}
+.info .ecosystem a:hover span.infoarrow {opacity:1; margin-left:0;}
+.info .waste a span {display:block; width: 150px; height:150px; background: rgba(51, 102, 102, .6); position:absolute; top:133px; left:685px; -webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;opacity:0;}
+.info .waste a span.infoarrow {display:block; width:150px; height: 150px; background: url(../images/needtoknowHover.png) 47px 53px no-repeat; position:absolute; top:133px; left:685px; margin-left:-150px; -webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;opacity:0;}
+.info .waste a:hover span {opacity:1;}
+.info .waste a:hover span.infoarrow {opacity:1; margin-left:0;}
+
+
+
+.projects {height: 750px; position: relative;}
+.projects h3 {font-size: 1.9em; margin: 109px 0 130px 386px; font-weight:bold; color: #514b4b}
+.projects ul {width: 650px; margin-left: 175px; overflow:hidden;}
+.projects li {float: left; width: 170px; height: 170px; background: #33C; position:relative;}
+.projects a li .reader {display:block; text-indent:-999px; overflow:hidden}
+
+/*project hover*/
+.projects .work1 span {font-size:1.063em;display:block; width:105px; height:17px; padding: 38px 22px 95px;background:rgba(87,192,212,.6); color:#f0f0f0; position:absolute; top:10px; left:10px; -webkit-transition: all 0.7s ease;
+transition: all 0.4s ease; opacity:0;}
+.projects .work1 .projectbtn {display:inline-block; width:72px;height:20px; background:none;color:#f0f0f0; position:absolute; top:100px; left:36px; border:2px solid #f0f0f0; padding:10px;-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease; opacity:0;}
+
+.projects .work2 span {font-size:1.063em;display:block; width:105px; height:17px; padding: 28px 22px 105px;background:rgba(87,192,212,.6); color:#f0f0f0; position:absolute; top:10px; left:10px;-webkit-transition: all 0.7s ease;
+transition: all 0.4s ease; opacity:0;}
+.projects .work2 .projectbtn {display:block; width:72px;height:20px; background:none;color:#f0f0f0; position:absolute; top:100px; left:36px; border:2px solid #f0f0f0; padding:10px;-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease; opacity:0;}
+
+.projects .work3 span {font-size:1.063em;display:block; width:124px; height:17px; padding: 38px 9px 95px 20px;background:rgba(87,192,212,.6); color:#f0f0f0; position:absolute; top:10px; left:10px;-webkit-transition: all 0.7s ease;
+transition: all 0.4s ease; opacity:0;}
+.projects .work3 .projectbtn {display:block; width:72px;height:20px; background:none;color:#f0f0f0; position:absolute; top:100px; left:36px; border:2px solid #f0f0f0; padding:10px;-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease; opacity:0;}
+
+.projects .work4 span {font-size:1.063em;display:block; width:73px; height:38px; padding: 28px 39px 85px;background:rgba(87,192,212,.6); color:#f0f0f0; position:absolute; top:10px; left:10px;-webkit-transition: all 0.7s ease;
+transition: all 0.4s ease; opacity:0;}
+.projects .work4 .projectbtn {display:block; width:72px;height:20px; background:none;color:#f0f0f0; position:absolute; top:100px; left:36px; border:2px solid #f0f0f0; padding:10px;-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease; opacity:0;}
+.projects .work5 span {font-size:1.063em;display:block; width:94px; height:17px; padding: 30px 24px 95px;background:rgba(87,192,212,.6); color:#f0f0f0; position:absolute; top:10px; left:10px;-webkit-transition: all 0.7s ease;
+transition: all 0.4s ease; opacity:0;}
+.projects .work5 .projectbtn {display:block; width:72px;height:20px; background:none;color:#f0f0f0; position:absolute; top:100px; left:36px; border:2px solid #f0f0f0; padding:10px;-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease; opacity:0;}
+.projects .work6 span {font-size:1.063em;display:block; width:110px; height:60px; padding: 16px 21px 70px;background:rgba(87,192,212,.6); color:#f0f0f0; position:absolute; top:10px; left:10px;-webkit-transition: all 0.7s ease;
+transition: all 0.4s ease; opacity:0;}
+.projects .work6 .projectbtn {display:block; width:72px;height:20px; background:none;color:#f0f0f0; position:absolute; top:100px; left:36px; border:2px solid #f0f0f0; padding:10px;-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease; opacity:0;}
+
+.projects .work1:hover span.spanhover {opacity:1;}
+.projects .work1:hover span.projectbtn {opacity:1; color:#817267; box-shadow: inset 96px 0 0 #f0f0f0 }
+.projects .work2:hover span.spanhover {opacity:1;}
+.projects .work2:hover span.projectbtn {opacity:1; color:#817267; box-shadow: inset 96px 0 0 #f0f0f0 }
+.projects .work3:hover span.spanhover {opacity:1;}
+.projects .work3:hover span.projectbtn {opacity:1; color:#817267; box-shadow: inset 96px 0 0 #f0f0f0 }
+.projects .work4:hover span.spanhover {opacity:1;}
+.projects .work4:hover span.projectbtn {opacity:1; color:#817267; box-shadow: inset 96px 0 0 #f0f0f0 }
+.projects .work5:hover span.spanhover {opacity:1;}
+.projects .work5:hover span.projectbtn {opacity:1; color:#817267; box-shadow: inset 96px 0 0 #f0f0f0 }
+.projects .work6:hover span.spanhover {opacity:1;}
+.projects .work6:hover span.projectbtn {opacity:1; color:#817267; box-shadow: inset 96px 0 0 #f0f0f0 }
+
+
+
+.projects .work1,.projects .work2, .projects .work4,.projects .work5 {margin: 0 70px 36px 0; }
+.projects .work1 {background: url(../images/time_to_deliver.jpg)}
+.projects .work2 {background: url(../images/woman-water-peace.jpg)}
+.projects .work3 {background: url(../images/the-big-picture.jpg)}
+.projects .work4 {background: url(../images/air-we-breathe.jpg)}
+.projects .work5 {background: url(../images/sustainable-resource.jpg)}
+.projects .work6 {background: url(../images/oil-gas.jpg)}
+.projects .workleft  {position: absolute; left:105px; top:337px;}
+.projects .workright {position: absolute; right: 105px; top:337px}
+.projects .gallery_box {width: 1000px; height: 380px; overflow:hidden;}
+
+
+.social {height: 473px; background: #f0f0f0; overflow: hidden;}
+.social .video {float: right; width: 340px; height: 340px; border: 1px solid #736357; margin: 67px 50px 0 0}
+.social h3 {font-size: 1.9em; margin: 125px 0 32px 50px ; font-weight:bold; color: #514b4b}
+.social .twitter {float: left; position: relative;}
+.social .twitterFollow {position: absolute; top:126px; left: 422px; }
+.social .twitterPost {margin-left: 50px}
+
+.partners {overflow: hidden; position: relative; height: 420px}
+.partners h3 {font-size: 1.9em; margin: 108px 0 80px 400px ; font-weight:bold; color: #514b4b}
+.partners li {float: left;}
+.partners .more {position: absolute; right: 65px; top:108px; color: #57c0d4; }
+.partners .more img {margin: 4px 0 0 10px}
+.partners ul {margin-left: 52px;}
+.partners .partnerLogo {margin-right: 40px}
+.partners:hover .more {color:#9bc700;}
+.partners a:hover {color:#9bc700;}
+
+/*pop up window*/
+
+.popupClose {position:absolute; top: 10px; left: 350px; background:url(../common/images/nav_close.png) no-repeat; width: 37px; height: 37px; text-indent:-999999px; overflow:hidden;}
+.notShow {position:absolute; top: 10px; left:180px;}
+.notShowCheck {position:absolute; top:12px; left:160px;}
+
