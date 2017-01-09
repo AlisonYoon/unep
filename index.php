@@ -156,60 +156,15 @@ if the HGF Dam diverted water from our region.</p>
             </div>
 
             <!-- contentTop e-->
-
+            
+            <? include "common/func.php"; ?>
             <div class="latest">
 
             			<h3><a href="">The Latest</a></h3>
 
-							<div class="latestLeft">
+							<? latest_article("concert", 2, 200); ?>
 
-								<p class="postDate"><a href="">Sep 22, 2016</a></p>
-
-                                <a href="sub6/sub6_2.php"><h4>On World Rhino Day, Julius Yego Locks Horns
-
-									with Illegal Trade in Wildlife</h4>
-
-								<p>"I learned to throw the javelin from watching videos on YouTube,
-
-but I don't want this to be the only place where people
-
-can see rhinos in the future," said Yego.
-
-"I'm standing up for rhinos to make people understand
-
-we can't keep killing them."</p>
-
-							<span class="readmore">more<img src="images/readmore.png" alt=""></span></a>
-
-							</div>
-
-							<!--latestLeft e-->
-
-							<div class="latestRight">
-
-                            	<p class="postDate"><a href="">Sep 24, 2016</a></p>
-
-								<a href="sub1/sub1_2.php"><h4>UN Secretary General's climate resilience
-
-initiative set to mobilize and accelerate climate
-
-action for sustainable development</h4>
-
-								<p>Partners of a new UN-led platform to mobilize
-
-and accelerate action on climate resilience
-
-agreed today to move ahead with plans that will help
-
-meet the needs of a growing global population that is being
-
-impacted by climate change.</p>
-
-							<span class="readmore">more<img src="images/readmore.png" alt=""></span></a>
-
-							</div>
-
-							<!--latestRight e-->
+						
 
             </div>
 
