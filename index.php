@@ -83,7 +83,7 @@ if the HGF Dam diverted water from our region.</p>
 
             <div class="getthefactBtn">
             
-            <a href="#"><span>Get the fact</span></a>
+            <a href="http://unep.alisonyoon.com/concert/view.php?table=concert&num=16&page=1"><span>Get the fact</span></a>
           
             </div>
 
