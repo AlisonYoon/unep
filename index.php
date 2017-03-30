@@ -355,8 +355,7 @@ clean up in future years.</p></a>
 
        if ( chk.checked ) {
 
-             setCookie( "Notice", "done" , 1); //1이란 숫자는 1일간 안보임을 뜻합니다. 날짜는 자신에 맞게 수정하세요
-
+             setCookie( "Notice", "done" , 1); //1이란 숫자는 1일간 안보임을 뜻함.
         }
 
     }
